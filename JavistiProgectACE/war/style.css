@@ -1,0 +1,1623 @@
+/* begin Page */
+/* Created by Artisteer v3.1.0.46558 */
+
+#aip2012-main, table
+{
+   font-family: "Century Gothic",Arial, Helvetica, Sans-Serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
+{
+   margin: 0;
+   padding: 0;
+}
+
+.aip2012-postcontent,
+.aip2012-postheadericons,
+.aip2012-postfootericons,
+.aip2012-blockcontent-body,
+ul.aip2012-vmenu a 
+{
+   text-align: left;
+}
+
+.aip2012-postcontent,
+.aip2012-postcontent li,
+.aip2012-postcontent table,
+.aip2012-postcontent a,
+.aip2012-postcontent a:link,
+.aip2012-postcontent a:visited,
+.aip2012-postcontent a.visited,
+.aip2012-postcontent a:hover,
+.aip2012-postcontent a.hovered
+{
+   font-family: "Century Gothic",Arial, Helvetica, Sans-Serif;
+}
+
+.aip2012-postcontent p
+{
+   margin: 12px 0;
+}
+
+.aip2012-postcontent h1, .aip2012-postcontent h1 a, .aip2012-postcontent h1 a:link, .aip2012-postcontent h1 a:visited, .aip2012-postcontent h1 a:hover,
+.aip2012-postcontent h2, .aip2012-postcontent h2 a, .aip2012-postcontent h2 a:link, .aip2012-postcontent h2 a:visited, .aip2012-postcontent h2 a:hover,
+.aip2012-postcontent h3, .aip2012-postcontent h3 a, .aip2012-postcontent h3 a:link, .aip2012-postcontent h3 a:visited, .aip2012-postcontent h3 a:hover,
+.aip2012-postcontent h4, .aip2012-postcontent h4 a, .aip2012-postcontent h4 a:link, .aip2012-postcontent h4 a:visited, .aip2012-postcontent h4 a:hover,
+.aip2012-postcontent h5, .aip2012-postcontent h5 a, .aip2012-postcontent h5 a:link, .aip2012-postcontent h5 a:visited, .aip2012-postcontent h5 a:hover,
+.aip2012-postcontent h6, .aip2012-postcontent h6 a, .aip2012-postcontent h6 a:link, .aip2012-postcontent h6 a:visited, .aip2012-postcontent h6 a:hover,
+.aip2012-blockheader .t, .aip2012-blockheader .t a, .aip2012-blockheader .t a:link, .aip2012-blockheader .t a:visited, .aip2012-blockheader .t a:hover,
+.aip2012-vmenublockheader .t, .aip2012-vmenublockheader .t a, .aip2012-vmenublockheader .t a:link, .aip2012-vmenublockheader .t a:visited, .aip2012-vmenublockheader .t a:hover,
+.aip2012-logo-name, .aip2012-logo-name a, .aip2012-logo-name a:link, .aip2012-logo-name a:visited, .aip2012-logo-name a:hover,
+.aip2012-logo-text, .aip2012-logo-text a, .aip2012-logo-text a:link, .aip2012-logo-text a:visited, .aip2012-logo-text a:hover,
+.aip2012-postheader, .aip2012-postheader a, .aip2012-postheader a:link, .aip2012-postheader a:visited, .aip2012-postheader a:hover
+{
+   font-family: "Century Gothic",Arial, Helvetica, Sans-Serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   text-decoration: none;
+}
+
+.aip2012-postcontent a
+{
+   text-decoration: none;
+   color: #5D5A28;
+}
+
+.aip2012-postcontent a:link
+{
+   text-decoration: none;
+   color: #5D5A28;
+}
+
+.aip2012-postcontent a:visited, .aip2012-postcontent a.visited
+{
+   color: #6F8033;
+}
+
+.aip2012-postcontent  a:hover, .aip2012-postcontent a.hover
+{
+   text-decoration: underline;
+   color: #1D1C0C;
+}
+
+.aip2012-postcontent h1
+{
+   color: #5D5A28;
+   margin: 10px 0 0;
+   font-size: 29px;
+}
+
+.aip2012-blockcontent h1
+{
+   margin: 10px 0 0;
+   font-size: 29px;
+}
+
+.aip2012-postcontent h1 a, .aip2012-postcontent h1 a:link, .aip2012-postcontent h1 a:hover, .aip2012-postcontent h1 a:visited, .aip2012-blockcontent h1 a, .aip2012-blockcontent h1 a:link, .aip2012-blockcontent h1 a:hover, .aip2012-blockcontent h1 a:visited 
+{
+   font-size: 29px;
+}
+
+.aip2012-postcontent h2
+{
+   color: #5D5A28;
+   margin: 10px 0 0;
+}
+
+.aip2012-blockcontent h2
+{
+   margin: 10px 0 0;
+}
+
+.aip2012-postcontent h3
+{
+   color: #8CA040;
+   margin: 10px 0 0;
+   font-size: 20px;
+}
+
+.aip2012-blockcontent h3
+{
+   margin: 10px 0 0;
+   font-size: 20px;
+}
+
+.aip2012-postcontent h3 a, .aip2012-postcontent h3 a:link, .aip2012-postcontent h3 a:hover, .aip2012-postcontent h3 a:visited, .aip2012-blockcontent h3 a, .aip2012-blockcontent h3 a:link, .aip2012-blockcontent h3 a:hover, .aip2012-blockcontent h3 a:visited 
+{
+   font-size: 20px;
+}
+
+.aip2012-postcontent h4
+{
+   color: #5C6A2A;
+   margin: 10px 0 0;
+   font-size: 18px;
+}
+
+.aip2012-blockcontent h4
+{
+   margin: 10px 0 0;
+   font-size: 18px;
+}
+
+.aip2012-postcontent h4 a, .aip2012-postcontent h4 a:link, .aip2012-postcontent h4 a:hover, .aip2012-postcontent h4 a:visited, .aip2012-blockcontent h4 a, .aip2012-blockcontent h4 a:link, .aip2012-blockcontent h4 a:hover, .aip2012-blockcontent h4 a:visited 
+{
+   font-size: 18px;
+}
+
+.aip2012-postcontent h5
+{
+   color: #5C6A2A;
+   margin: 10px 0 0;
+   font-size: 15px;
+}
+
+.aip2012-blockcontent h5
+{
+   margin: 10px 0 0;
+   font-size: 15px;
+}
+
+.aip2012-postcontent h5 a, .aip2012-postcontent h5 a:link, .aip2012-postcontent h5 a:hover, .aip2012-postcontent h5 a:visited, .aip2012-blockcontent h5 a, .aip2012-blockcontent h5 a:link, .aip2012-blockcontent h5 a:hover, .aip2012-blockcontent h5 a:visited 
+{
+   font-size: 15px;
+}
+
+.aip2012-postcontent h6
+{
+   color: #6F8033;
+   margin: 10px 0 0;
+   font-size: 14px;
+}
+
+.aip2012-blockcontent h6
+{
+   margin: 10px 0 0;
+   font-size: 14px;
+}
+
+.aip2012-postcontent h6 a, .aip2012-postcontent h6 a:link, .aip2012-postcontent h6 a:hover, .aip2012-postcontent h6 a:visited, .aip2012-blockcontent h6 a, .aip2012-blockcontent h6 a:link, .aip2012-blockcontent h6 a:hover, .aip2012-blockcontent h6 a:visited 
+{
+   font-size: 14px;
+}
+
+ul
+{
+   list-style-type: none;
+}
+
+ol
+{
+   list-style-position: inside;
+}
+
+html, body
+{
+   height:100%;
+}
+
+#aip2012-main
+{
+   position: relative;
+   z-index: 0;
+   width: 100%;
+   min-height: 100%;
+   left: 0;
+   top: 0;
+   cursor:default;
+   overflow:hidden;
+}
+
+body
+{
+   padding: 0;
+   margin:0;
+   min-width: 800px;
+   color: #434D1F;
+   background-color: #8DA240;
+   background-image: url('images/Bottom_texture.jpg');
+   background-repeat: repeat;
+   background-attachment: fixed;
+   background-position: top left;
+}
+
+#aip2012-page-background-middle-texture
+{
+   position: relative;
+   background-image: url('images/Middle_texture.jpg');
+   background-repeat: repeat-x;
+   background-position: top left;
+   background-attachment: fixed;
+   width:100%;
+   min-width: 800px;
+   min-height:100%;
+}
+
+.cleared
+{
+   display:block;
+   clear: both;
+   float: none;
+   margin: 0;
+   padding: 0;
+   border: none;
+   font-size: 0;
+   height:0;
+   overflow:hidden;
+}
+
+.reset-box
+{
+   overflow:hidden;
+   display:table;
+}
+
+form
+{
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+table.position
+{
+   position: relative;
+   width: 100%;
+   table-layout: fixed;
+}
+
+/* Start Box */
+.aip2012-box, .aip2012-box-body {
+   margin:0 auto;
+   position:relative;
+}
+.aip2012-box:before, .aip2012-box:after, .aip2012-box-body:before, .aip2012-box-body:after {
+   position:absolute;
+   top:0;
+   bottom:0;
+   content:' ';
+   background-repeat: no-repeat;
+   line-height:0;
+}
+.aip2012-box:before,.aip2012-box-body:before{
+   left:0;
+}
+.aip2012-box:after,.aip2012-box-body:after{
+   right:0;
+}
+.aip2012-box:before {
+   overflow:hidden;
+   background-position: bottom left;
+   direction: ltr;
+   z-index:-3;
+}
+.aip2012-box:after {
+   background-position: bottom right;
+   z-index:-3;
+}
+.aip2012-box-body:before, .aip2012-box-body:after {
+   background-repeat:repeat-y;
+}
+.aip2012-box-body:before {
+   background-position: top left;
+   z-index:-3;
+}
+.aip2012-box-body:after {
+   background-position: top right;
+   z-index:-3;
+}
+
+.aip2012-box .aip2012-box:before, .aip2012-box .aip2012-box:after, .aip2012-box-body .aip2012-box-body:before, .aip2012-box-body .aip2012-box-body:after {
+   z-index:-2;
+}
+.aip2012-box .aip2012-box .aip2012-box:before, .aip2012-box .aip2012-box .aip2012-box:after, .aip2012-box-body .aip2012-box-body .aip2012-box-body:before, .aip2012-box-body .aip2012-box-body .aip2012-box-body:after {
+   z-index:-1;
+}
+/* End Box */
+
+/* Start Bar */
+.aip2012-bar {
+   position:relative;
+}
+.aip2012-bar:before, .aip2012-bar:after {
+   position:absolute;
+   top:0;
+   bottom:0;
+   content:' ';
+   background-repeat:repeat;
+   z-index:-1;
+}
+.aip2012-bar:before {
+   left:0;
+   background-position: top left;
+}
+.aip2012-bar:after {
+   right:0;
+   background-position: top right;
+}
+/* End Bar */
+
+li h1, .aip2012-postcontent li h1, .aip2012-blockcontent-body li h1 
+{
+   margin:1px;
+} 
+li h2, .aip2012-postcontent li h2, .aip2012-blockcontent-body li h2 
+{
+   margin:1px;
+} 
+li h3, .aip2012-postcontent li h3, .aip2012-blockcontent-body li h3 
+{
+   margin:1px;
+} 
+li h4, .aip2012-postcontent li h4, .aip2012-blockcontent-body li h4 
+{
+   margin:1px;
+} 
+li h5, .aip2012-postcontent li h5, .aip2012-blockcontent-body li h5 
+{
+   margin:1px;
+} 
+li h6, .aip2012-postcontent li h6, .aip2012-blockcontent-body li h6 
+{
+   margin:1px;
+} 
+li p, .aip2012-postcontent li p, .aip2012-blockcontent-body li p 
+{
+   margin:1px;
+}
+
+/* end Page */
+
+/* begin Box, Sheet */
+.aip2012-sheet
+{
+   max-width:800px;
+   margin-top: 12px;
+   margin-bottom: -3px;
+   cursor:auto;
+   width: 800px;
+}
+.aip2012-sheet-body 
+{
+   padding:5px;
+   min-width:16px;
+   min-height:16px;
+   padding-top:5px;
+   padding-bottom:5px;
+}
+.aip2012-sheet:before, .aip2012-sheet:after 
+{
+   content: url('images/sheet_t.png');
+   font-size: 0;
+   background-image: url('images/sheet_b.png');
+}
+.aip2012-sheet:after{
+   clip:rect(auto, auto, auto, 787px);
+}
+.aip2012-sheet:before,.aip2012-sheet-body:before{
+   right:13px;
+}
+.aip2012-sheet-body:after{
+   width: 13px;
+   top:13px;
+   bottom:13px;
+   background-image:url('images/sheet.png');
+}
+.aip2012-sheet-body:before{
+   top:13px;
+   bottom:13px;
+   background-image:url('images/sheet.png');
+}
+
+/* end Box, Sheet */
+
+/* begin Header */
+div.aip2012-header
+{
+   margin: 0 auto;
+   position: relative;
+   width:100%;
+   height: 300px;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.aip2012-header:after
+{
+   position: absolute;
+   z-index:-1;
+   display:block;
+   content:' ';
+   top: 0;
+   width:100%;
+   height: 300px;
+   background-image: url('images/header.jpg');
+   background-repeat: no-repeat;
+   background-position: center left;
+}
+/* end Header */
+
+/* begin Menu */
+/* menu structure */
+
+ul.aip2012-hmenu a, ul.aip2012-hmenu a:link, ul.aip2012-hmenu a:visited, ul.aip2012-hmenu a:hover 
+{
+   outline: none;
+   position: relative;
+   z-index: 11;
+}
+
+ul.aip2012-hmenu, ul.aip2012-hmenu ul
+{
+   display: block;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   list-style-type: none;
+}
+
+ul.aip2012-hmenu li
+{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   display: block;
+   float: left;
+   position: relative;
+   z-index: 5;
+   background: none;
+}
+
+ul.aip2012-hmenu li:hover{
+   z-index: 10000;
+   white-space: normal;
+}
+ul.aip2012-hmenu li li{
+   float: none;
+   width: auto;
+}
+ul.aip2012-hmenu li:hover>ul {
+   visibility: visible;
+   top: 100%;
+}
+ul.aip2012-hmenu li li:hover>ul {
+   top: 0;
+   left: 100%;
+}
+ul.aip2012-hmenu:after, ul.aip2012-hmenu ul:after
+{
+   content: ".";
+   height: 0;
+   display: block;
+   visibility: hidden;
+   overflow: hidden;
+   clear: both;
+}
+ul.aip2012-hmenu, ul.aip2012-hmenu ul {
+   min-height: 0;
+}
+
+ul.aip2012-hmenu ul
+{
+   visibility: hidden;
+   position: absolute;
+   z-index: 10;
+   left: 0;
+   top: 0;
+   background-image: url('images/spacer.gif');
+   padding: 10px 30px 30px 30px;
+   margin: -10px 0 0 -30px;
+}
+
+ul.aip2012-hmenu ul.aip2012-hmenu-left-to-right {
+   right: auto;
+   left: 0;
+   margin: -10px 0 0 -30px;
+}
+ul.aip2012-hmenu ul.aip2012-hmenu-right-to-left {
+   left: auto;
+   right: 0;
+   margin: -10px -30px 0 0;
+}
+
+ul.aip2012-hmenu ul ul
+{
+   padding: 30px 30px 30px 10px;
+   margin: -30px 0 0 -10px;
+   margin-left: -11px;
+   z-index: -1;
+}
+
+ul.aip2012-hmenu ul ul.aip2012-hmenu-left-to-right
+{
+   right: auto;
+   left: 0;
+   padding: 30px 30px 30px 10px;
+   margin: -30px 0 0 -10px;
+   margin-left: -11px;
+}
+
+ul.aip2012-hmenu ul ul.aip2012-hmenu-right-to-left
+{
+   left: auto;
+   right: 0;
+   padding: 30px 10px 30px 30px;
+   margin: -30px -10px 0 0;
+   margin-right: -11px;
+}
+
+ul.aip2012-hmenu li li:hover>ul.aip2012-hmenu-left-to-right {
+   right: auto;
+   left: 100%;
+}
+ul.aip2012-hmenu li li:hover>ul.aip2012-hmenu-right-to-left {
+   left: auto;
+   right: 100%;
+}
+
+ul.aip2012-hmenu{
+   position:relative;
+   padding: 6px 6px 6px 6px;
+   float: left;
+}
+
+/* end menu structure */
+
+/* menu bar */
+
+.aip2012-nav
+{
+   margin:0 auto;
+   min-height: 46px;
+   z-index: 100;
+   margin: 0 0 -46px;
+   width:auto;
+   top: 0;
+}
+
+.aip2012-nav:before, .aip2012-nav:after{
+   background-image: url('images/nav.png');
+}
+.aip2012-nav:before{
+   right: 0;
+}
+.aip2012-nav:after{
+   width: 0;
+}
+/* end menu bar */
+.aip2012-nav-outer{
+   position:absolute;
+   width:100%;
+}
+.aip2012-nav-wrapper 
+{
+   position: relative;
+   margin:0 auto;
+   width:auto;
+}
+
+.aip2012-nav-inner{
+   margin: 0 5px;
+}
+
+/* end Menu */
+
+/* begin MenuItem */
+ul.aip2012-hmenu>li>a
+{
+   position: relative;
+   display: block;
+   height: 34px;
+   cursor: pointer;
+   text-decoration: none;
+   color: #000000;
+   padding: 0 28px;
+   line-height: 34px;
+   text-align: center;
+}
+
+ul.aip2012-hmenu>li>a:before, ul.aip2012-hmenu>li>a:after
+{
+   position: absolute;
+   display: block;
+   content:' ';
+   top: 0;
+   bottom:0;
+   z-index: -1;
+   background-image: url('images/menuitem.png');
+}
+
+ul.aip2012-hmenu>li>a:before
+{
+   left: 0;
+   right: 7px;
+   background-position: top left;
+}
+
+ul.aip2012-hmenu>li>a:after
+{
+   width: 7px;
+   right: 0;
+   background-position: top right;
+}
+
+.aip2012-hmenu a, .aip2012-hmenu a:link, .aip2012-hmenu a:visited, .aip2012-hmenu a:hover
+{
+   text-align: left;
+   text-decoration: none;
+}
+
+ul.aip2012-hmenu>li>a.active:before {
+   background-position: bottom left;
+} 
+ul.aip2012-hmenu>li>a.active:after {
+   background-position: bottom right;
+}
+ul.aip2012-hmenu>li>a.active {
+   color: #19180B;
+}
+
+ul.aip2012-hmenu>li>a:hover:before, ul.aip2012-hmenu>li:hover>a:before {
+   background-position: center left;
+}
+ul.aip2012-hmenu>li>a:hover:after, ul.aip2012-hmenu>li:hover>a:after {
+   background-position: center right;
+}
+ul.aip2012-hmenu>li>a:hover, ul.aip2012-hmenu>li:hover>a{
+   color: #302803;
+}
+
+/* end MenuItem */
+
+/* begin MenuSeparator */
+
+ul.aip2012-hmenu>li {
+   margin-left:12px;
+}
+ul.aip2012-hmenu>li:first-child {
+   margin-left:0;
+}
+
+/* end MenuSeparator */
+
+/* begin MenuSubItem */
+.aip2012-hmenu ul a
+{
+   display: block;
+   white-space: nowrap;
+   height: 28px;
+   background-image: url('images/subitem.png');
+   background-position: left top;
+   background-repeat: repeat-x;
+   border-width: 1px;
+   border-style: solid;
+   border-top-width: 0;
+   border-color: #9A9542;
+   min-width: 7em;
+   text-align: left;
+   text-decoration: none;
+   line-height: 28px;
+   color: #2B2A12;
+   margin:0;
+   padding: 0 22px;
+}
+
+.aip2012-hmenu ul>li:first-child>a
+{
+   border-top-width: 1px;
+}
+
+.aip2012-hmenu ul a:link, .aip2012-hmenu ul a:visited, .aip2012-hmenu ul a:hover, .aip2012-hmenu ul a:active
+{
+   text-align: left;
+   text-decoration: none;
+   line-height: 28px;
+   color: #2B2A12;
+   margin:0;
+   padding: 0 22px;
+}
+
+.aip2012-hmenu ul li a:hover
+{
+   color: #20240F;
+   background-position: left bottom;
+   border-color: #9A9542;
+   border-top-width: 1px !important;
+}
+
+.aip2012-hmenu ul li a.aip2012-hmenu-before-hovered
+{
+   border-bottom-width: 0 !important;
+}
+
+.aip2012-hmenu ul li:hover>a
+{
+   color: #20240F;
+   background-position: left bottom;
+   border-color: #9A9542;
+   border-top-width: 1px !important;
+}
+
+/* end MenuSubItem */
+
+/* begin Logo */
+div.aip2012-logo
+{
+   display: block;
+   position: absolute;
+   top: 60px;
+   left: 3%;
+   margin-left: -10px;
+}
+
+.aip2012-logo-name
+{
+   display: block;
+   text-align: left;
+   font-family: Georgia, "Times New Roman", Times, Serif;
+   font-size: 53px;
+   padding: 0;
+   margin: 0;
+   color: #392F04 !important;
+}
+.aip2012-logo-name a, 
+.aip2012-logo-name a:link, 
+.aip2012-logo-name a:visited, 
+.aip2012-logo-name a:hover
+{
+   font-family: Georgia, "Times New Roman", Times, Serif;
+   font-size: 53px;
+   padding: 0;
+   margin: 0;
+   color: #392F04 !important;
+}
+
+.aip2012-logo-text
+{
+   display: block;
+   text-align: left;
+   font-size: 17px;
+   padding: 0;
+   margin: 0;
+   color: #392F04 !important;
+}
+.aip2012-logo-text a,
+.aip2012-logo-text a:link,
+.aip2012-logo-text a:visited,
+.aip2012-logo-text a:hover
+{
+   font-size: 17px;
+   padding: 0;
+   margin: 0;
+   color: #392F04 !important;
+}
+
+#headline, #slogan 
+{
+   display: block;
+   min-width: 150px;
+   text-align: left;
+}
+/* end Logo */
+
+/* begin Layout */
+.aip2012-layout-wrapper
+{
+   position:relative;
+   margin:10px auto 0 auto;
+}
+
+.aip2012-content-layout
+{
+   display: table;
+   width:100%;
+   table-layout: fixed;
+   border-collapse: collapse;
+}
+
+.aip2012-content-layout-row {
+   display: table-row;
+}
+
+.aip2012-layout-cell
+{
+   display: table-cell;
+   vertical-align: top;
+}
+/* end Layout */
+
+/* begin Box, Block */
+.aip2012-block
+{
+   max-width:790px;
+   margin: 10px;
+}
+.aip2012-block-body 
+{
+   padding:3px;
+   min-width:30px;
+   min-height:30px;
+}
+.aip2012-block:before, .aip2012-block:after 
+{
+   content: url('images/block_t.png');
+   font-size: 0;
+   background-image: url('images/block_b.png');
+}
+.aip2012-block:after{
+   clip:rect(auto, auto, auto, 772px);
+}
+.aip2012-block:before,.aip2012-block-body:before{
+   right:18px;
+}
+.aip2012-block-body:after{
+   width: 18px;
+   top:18px;
+   bottom:18px;
+   background-image:url('images/block.png');
+}
+.aip2012-block-body:before{
+   top:18px;
+   bottom:18px;
+   background-image:url('images/block.png');
+}
+
+div.aip2012-block img
+{
+   margin: 5px;
+}
+
+/* end Box, Block */
+
+/* begin BlockHeader */
+.aip2012-blockheader {
+   margin-bottom: 0;
+   min-height: 39px;
+   line-height:39px;
+}
+.aip2012-blockheader:before, .aip2012-blockheader:after{
+   background-image: url('images/blockheader.png');
+}
+.aip2012-blockheader:before{
+   right: 20px;
+}
+.aip2012-blockheader:after{
+   width: 20px;
+}
+
+.aip2012-blockheader .t
+{
+   min-height: 39px;
+   line-height:39px;
+   color: #211C02;
+   font-size: 15px;
+   margin:0;
+   padding: 0 5px 0 26px;
+   white-space: nowrap;
+}
+
+.aip2012-blockheader .t a,
+.aip2012-blockheader .t a:link,
+.aip2012-blockheader .t a:visited, 
+.aip2012-blockheader .t a:hover
+{
+   color: #211C02;
+   font-size: 15px;
+}
+
+/* end BlockHeader */
+
+/* begin Box, BlockContent */
+.aip2012-blockcontent
+{
+   max-width:790px;
+}
+.aip2012-blockcontent-body 
+{
+   padding:7px;
+   color: #434D1F;
+   font-family: "Century Gothic",Arial, Helvetica, Sans-Serif;
+   font-size: 13px;
+}
+.aip2012-blockcontent-body table,
+.aip2012-blockcontent-body li, 
+.aip2012-blockcontent-body a,
+.aip2012-blockcontent-body a:link,
+.aip2012-blockcontent-body a:visited,
+.aip2012-blockcontent-body a:hover
+{
+   color: #434D1F;
+   font-family: "Century Gothic",Arial, Helvetica, Sans-Serif;
+   font-size: 13px;
+}
+
+.aip2012-blockcontent-body p
+{
+   margin: 12px 0;
+}
+
+.aip2012-blockcontent-body a, .aip2012-blockcontent-body a:link
+{
+   color: #7C6709;
+   text-decoration: underline;
+}
+
+.aip2012-blockcontent-body a:visited, .aip2012-blockcontent-body a.visited
+{
+   color: #9D9943;
+   text-decoration: none;
+}
+
+.aip2012-blockcontent-body a:hover, .aip2012-blockcontent-body a.hover
+{
+   color: #6F8033;
+   text-decoration: none;
+}
+
+.aip2012-blockcontent-body ul li
+{
+   font-size: 14px;
+   line-height: 125%;
+   color: #4B4920;
+   margin: 5px 0 0 10px;
+   padding: 0 0 0 11px;
+   background-image: url('images/blockcontentbullets.png');
+   background-repeat: no-repeat;
+   background-position: top left;
+}
+/* end Box, BlockContent */
+
+/* begin Button */
+span.aip2012-button-wrapper>a.aip2012-button,
+span.aip2012-button-wrapper>a.aip2012-button:link,
+span.aip2012-button-wrapper>input.aip2012-button,
+span.aip2012-button-wrapper>button.aip2012-button
+{
+   text-decoration: none;
+   font-family: "Century Gothic",Arial, Helvetica, Sans-Serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 13px;
+   position:relative;
+   top:0;
+   display: inline-block;
+   vertical-align: middle;
+   white-space: nowrap;
+   text-align: center;
+   color: #EAE8CD !important;
+   width: auto;
+   outline: none;
+   border: none;
+   background: none;
+   line-height: 37px;
+   height: 37px;
+   margin: 0 !important;
+   padding: 0 26px !important;
+   overflow: visible;
+   cursor: pointer;
+   text-indent: 0;
+}
+
+.aip2012-button img, span.aip2012-button-wrapper img
+{
+   margin: 0;
+   vertical-align: middle;
+}
+
+span.aip2012-button-wrapper
+{
+   vertical-align: middle;
+   display: inline-block;
+   position: relative;
+   height: 37px;
+   overflow: hidden;
+   white-space: nowrap;
+   text-indent: 0;
+   width: auto;
+   max-width:790px;
+   margin: 0;
+   padding: 0;
+   z-index: 0;
+}
+
+.firefox2 span.aip2012-button-wrapper
+{
+   display: block;
+   float: left;
+}
+
+input, select, textarea
+{
+   vertical-align: middle;
+   font-family: "Century Gothic",Arial, Helvetica, Sans-Serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 13px;
+}
+
+div.aip2012-block select 
+{
+   width:96%;
+}
+
+span.aip2012-button-wrapper.hover>.aip2012-button, span.aip2012-button-wrapper.hover>a.aip2012-button:link
+{
+   color: #0E0C01 !important;
+   text-decoration: none !important;
+}
+
+span.aip2012-button-wrapper.active>.aip2012-button, span.aip2012-button-wrapper.active>a.aip2012-button:link
+{
+   color: #20240F !important;
+}
+
+span.aip2012-button-wrapper>span.aip2012-button-l, span.aip2012-button-wrapper>span.aip2012-button-r
+{
+   display: block;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   margin: 0;
+   padding: 0;
+   background-image: url('images/button.png');
+   background-repeat: no-repeat;
+}
+
+span.aip2012-button-wrapper>span.aip2012-button-l
+{
+   left: 0;
+   right: 7px;
+   background-position: top left;
+}
+
+span.aip2012-button-wrapper>span.aip2012-button-r
+{
+   width: 7px;
+   right: 0;
+   background-position: top right;
+}
+
+span.aip2012-button-wrapper.hover>span.aip2012-button-l
+{
+   background-position: center left;
+}
+
+span.aip2012-button-wrapper.hover>span.aip2012-button-r
+{
+   background-position: center right;
+}
+
+span.aip2012-button-wrapper.active>span.aip2012-button-l
+{
+   background-position: bottom left;
+}
+
+span.aip2012-button-wrapper.active>span.aip2012-button-r
+{
+   background-position: bottom right;
+}
+
+span.aip2012-button-wrapper input
+{
+   float: none !important;
+}
+/* end Button */
+
+/* begin Box, Post */
+.aip2012-post
+{
+   max-width:790px;
+   margin: 5px;
+}
+.aip2012-post-body 
+{
+   padding:20px;
+}
+
+a img
+{
+   border: 0;
+}
+
+.aip2012-article img, img.aip2012-article, .aip2012-block img, .aip2012-footer img
+{
+   border-color: #BAB65E;
+   border-style: solid;
+   border-width: 1px;
+   margin: 5px 5px 5px 5px;
+}
+
+.aip2012-metadata-icons img
+{
+   border: none;
+   vertical-align: middle;
+   margin: 2px;
+}
+
+.aip2012-article table, table.aip2012-article
+{
+   border-collapse: collapse;
+   margin: 1px;
+}
+
+.aip2012-post .aip2012-content-layout-br
+{
+   height: 0;
+}
+
+.aip2012-article th, .aip2012-article td
+{
+   padding: 2px;
+   border: solid 1px #9A9542;
+   vertical-align: top;
+   text-align: left;
+}
+
+.aip2012-article th
+{
+   text-align: center;
+   vertical-align: middle;
+   padding: 7px;
+}
+
+pre
+{
+   overflow: auto;
+   padding: 0.1em;
+}
+
+#preview-image
+{
+   float: left;
+   }
+
+.preview-cms-logo
+{
+   border: 0;
+   margin: 1em 1em 0 0;
+   float: left;
+}
+
+.preview-sharepoint-logo
+{
+   border: 0;
+   margin: 5px;
+   float: left;
+}
+/* end Box, Post */
+
+/* begin PostHeaderIcon */
+.aip2012-postheader
+{
+   color: #4B4920;
+   margin: 5px 0;
+   line-height: 1em;
+   font-size: 22px;
+}
+
+.aip2012-postheader a, 
+.aip2012-postheader a:link, 
+.aip2012-postheader a:visited,
+.aip2012-postheader a.visited,
+.aip2012-postheader a:hover,
+.aip2012-postheader a.hovered
+{
+   font-size: 22px;
+}
+
+.aip2012-postheader a, .aip2012-postheader a:link
+{
+   text-align: left;
+   text-decoration: none;
+   color: #5D5A28;
+}
+
+.aip2012-postheader a:visited, .aip2012-postheader a.visited
+{
+   color: #8CA040;
+}
+
+.aip2012-postheader a:hover,  .aip2012-postheader a.hovered
+{
+   color: #1D1C0C;
+}
+
+/* end PostHeaderIcon */
+
+/* begin PostIcons, PostHeaderIcons */
+.aip2012-postheadericons,
+.aip2012-postheadericons a,
+.aip2012-postheadericons a:link,
+.aip2012-postheadericons a:visited,
+.aip2012-postheadericons a:hover
+{
+   font-family: "Century Gothic",Arial, Helvetica, Sans-Serif;
+   color: #68652C;
+}
+
+.aip2012-postheadericons
+{
+   padding: 1px;
+}
+
+.aip2012-postheadericons a, .aip2012-postheadericons a:link
+{
+   text-decoration: none;
+   color: #5D5A28;
+}
+
+.aip2012-postheadericons a:visited, .aip2012-postheadericons a.visited
+{
+   font-style: italic;
+   font-weight: normal;
+   color: #5D5A28;
+}
+
+.aip2012-postheadericons a:hover, .aip2012-postheadericons a.hover
+{
+   font-style: italic;
+   font-weight: normal;
+   text-decoration: underline;
+   color: #525F26;
+}
+
+/* end PostIcons, PostHeaderIcons */
+
+/* begin PostIcon, PostDateIcon */
+span.aip2012-postdateicon
+{
+   display:inline-block;
+   line-height: 1em;
+}
+
+span.aip2012-postdateicon:after
+{
+   content: '.';
+   width: 1px;
+   visibility: hidden;
+   display: inline-block;
+}/* end PostIcon, PostDateIcon */
+
+/* begin PostIcon, PostAuthorIcon */
+span.aip2012-postauthoricon
+{
+   display:inline-block;
+   line-height: 1em;
+}
+
+span.aip2012-postauthoricon:after
+{
+   content: '.';
+   width: 1px;
+   visibility: hidden;
+   display: inline-block;
+}/* end PostIcon, PostAuthorIcon */
+
+/* begin PostIcon, PostEditIcon */
+span.aip2012-postediticon
+{
+   display:inline-block;
+   line-height: 1em;
+}
+
+span.aip2012-postediticon:after
+{
+   content: '.';
+   width: 1px;
+   visibility: hidden;
+   display: inline-block;
+}/* end PostIcon, PostEditIcon */
+
+/* begin PostBullets */
+.aip2012-postcontent ol, .aip2012-postcontent ul
+{
+   margin: 1em 0 1em 2em;
+   padding: 0;
+}
+
+.aip2012-postcontent li
+{
+   font-size: 14px;
+   color: #19180B;
+   margin: 3px 0 0 -15px;
+   padding: 0 0 0 13px;
+}
+
+.aip2012-postcontent li ol, .aip2012-post li ul
+{
+   margin: 0.5em 0 0.5em 2em;
+   padding: 0;
+}
+
+.aip2012-postcontent ol>li
+{
+   background: none;
+   padding-left: 0;
+   /* overrides overflow for "ul li" and sets the default value */
+  overflow: visible;
+}
+
+.aip2012-postcontent ul>li
+{
+   background-image: url('images/postbullets.png');
+   background-repeat: no-repeat;
+   background-position: top left;
+   padding-left: 13px;
+   /* makes "ul li" not to align behind the image if they are in the same line */
+  overflow-x: visible;
+   overflow-y: hidden;
+}
+
+/* end PostBullets */
+
+/* begin PostQuote */
+blockquote,
+blockquote a, .aip2012-postcontent blockquote a, .aip2012-blockcontent blockquote a, .aip2012-footer blockquote a,
+blockquote a:link, .aip2012-postcontent blockquote a:link, .aip2012-blockcontent blockquote a:link, .aip2012-footer blockquote a:link,
+blockquote a:visited, .aip2012-postcontent blockquote a:visited, .aip2012-blockcontent blockquote a:visited, .aip2012-footer blockquote a:visited,
+blockquote a:hover, .aip2012-postcontent blockquote a:hover, .aip2012-blockcontent blockquote a:hover, .aip2012-footer blockquote a:hover
+{
+   color: #1D1802;
+   font-style: italic;
+   font-weight: normal;
+   text-align: left;
+}
+
+/* Override native 'p' margins*/
+blockquote p,
+.aip2012-postcontent blockquote p,
+.aip2012-blockcontent blockquote p,
+.aip2012-footer blockquote p
+{
+   margin: 0;
+   margin: 5px 0;
+}
+
+blockquote
+{
+   border: solid 1px #CDC989;
+   margin: 10px;
+   padding: 10px;
+   background-color: #E5E3C2;
+   margin-left: 50px;
+   padding-left: 38px;
+   background-image: url('images/postquote.png');
+   background-position: left top;
+   background-repeat: no-repeat;
+   /* makes block not to align behind the image if they are in the same line */
+  overflow: auto;
+   clear:both;
+}
+
+/* end PostQuote */
+
+/* begin PostIcons, PostFooterIcons */
+.aip2012-postfootericons,
+.aip2012-postfootericons a,
+.aip2012-postfootericons a:link,
+.aip2012-postfootericons a:visited,
+.aip2012-postfootericons a:hover
+{
+   font-family: "Century Gothic",Arial, Helvetica, Sans-Serif;
+   color: #68652C;
+}
+
+.aip2012-postfootericons
+{
+   padding: 1px;
+}
+
+.aip2012-postfootericons a, .aip2012-postfootericons a:link
+{
+   text-decoration: none;
+   color: #5D5A28;
+}
+
+.aip2012-postfootericons a:visited, .aip2012-postfootericons a.visited
+{
+   color: #5D5A28;
+}
+
+.aip2012-postfootericons a:hover, .aip2012-postfootericons a.hover
+{
+   color: #525F26;
+}
+
+/* end PostIcons, PostFooterIcons */
+
+/* begin PostIcon, PostCategoryIcon */
+span.aip2012-postcategoryicon
+{
+   display:inline-block;
+   line-height: 1em;
+}
+
+span.aip2012-postcategoryicon:after
+{
+   content: '.';
+   width: 1px;
+   visibility: hidden;
+   display: inline-block;
+}/* end PostIcon, PostCategoryIcon */
+
+/* begin PostIcon, PostTagIcon */
+span.aip2012-posttagicon
+{
+   display:inline-block;
+   line-height: 1em;
+}
+
+span.aip2012-posttagicon:after
+{
+   content: '.';
+   width: 1px;
+   visibility: hidden;
+   display: inline-block;
+}/* end PostIcon, PostTagIcon */
+
+/* begin PostIcon, PostCommentsIcon */
+span.aip2012-postcommentsicon
+{
+   display:inline-block;
+   line-height: 1em;
+}
+
+span.aip2012-postcommentsicon:after
+{
+   content: '.';
+   width: 1px;
+   visibility: hidden;
+   display: inline-block;
+}/* end PostIcon, PostCommentsIcon */
+
+/* begin Footer */
+.aip2012-footer
+{
+   position: relative;
+   margin-top:0;
+   margin-bottom:0;
+   width: 100%;
+}
+
+.aip2012-footer-body
+{
+   position:relative;
+   padding: 10px;
+   color: #19180B;
+   font-size: 12px;
+}
+
+.aip2012-footer-body ul li
+{
+   color: #24230F;
+   padding: 0 0 0 17px;
+   background-image: url('images/footerbullets.png');
+   background-repeat: no-repeat;
+   background-position: top left;
+}
+
+.aip2012-footer-body:before
+{
+   position: absolute;
+   content:' ';
+   z-index:-2;
+   left:0;
+   right:0;
+   top:0;
+   bottom:50px;
+   background-image: url('images/footer.png');
+   background-position:bottom left;
+}
+
+.aip2012-footer:before, .aip2012-footer:after 
+{
+   position: absolute;
+   content:' ';
+   z-index:-2;
+   bottom:0;
+   height:50px;
+   background-image: url('images/footer_b.png');
+}
+
+.aip2012-footer:before
+{
+   left:0;
+   right:0;
+   background-position: bottom left;
+}
+
+.aip2012-footer:after
+{
+   right:0;
+   width:0;
+   background-position: bottom right;
+}
+
+.aip2012-footer-text p
+{
+   padding:0;
+   margin:0;
+   text-align: center;
+}
+
+.aip2012-footer-body a,
+.aip2012-footer-body a:link,
+.aip2012-footer-body a:visited,
+.aip2012-footer-body a:hover,
+.aip2012-footer-body td, 
+.aip2012-footer-body th,
+.aip2012-footer-body caption
+{
+   color: #19180B;
+   font-size: 12px;
+}
+
+.aip2012-footer-text
+{
+   padding-left: 10px;
+   padding-right: 10px;
+   text-align: center;
+}
+
+.aip2012-footer-body a,
+.aip2012-footer-body a:link
+{
+   color: #4F5B24;
+   text-decoration: none;
+}
+
+.aip2012-footer-body a:visited
+{
+   color: #393718;
+}
+
+.aip2012-footer-body a:hover
+{
+   color: #191D0C;
+   text-decoration: underline;
+}
+
+div.aip2012-footer img
+{
+   margin: 7px;
+}/* end Footer */
+
+/* begin PageFooter */
+.aip2012-page-footer, 
+.aip2012-page-footer a,
+.aip2012-page-footer a:link,
+.aip2012-page-footer a:visited,
+.aip2012-page-footer a:hover
+{
+   font-family: Arial;
+   font-size: 10px;
+   letter-spacing: normal;
+   word-spacing: normal;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: underline;
+   color: #DAD8A9;
+}
+
+.aip2012-page-footer
+{
+   position: relative;
+   z-index: 10;
+   padding: 1em;
+   text-align: center;
+   text-decoration: none;
+   color: #D1DCA7;
+}
+/* end PageFooter */
+
+/* begin LayoutCell, sidebar1 */
+.aip2012-content-layout .aip2012-sidebar1
+{
+   width: 250px;
+}
+/* end LayoutCell, sidebar1 */
+
+
