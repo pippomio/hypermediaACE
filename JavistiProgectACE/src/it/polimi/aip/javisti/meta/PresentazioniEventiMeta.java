@@ -1,6 +1,6 @@
 package it.polimi.aip.javisti.meta;
 
-//@javax.annotation.Generated(value = { "slim3-gen", "@VERSION@" }, date = "2012-06-26 23:42:34")
+//@javax.annotation.Generated(value = { "slim3-gen", "@VERSION@" }, date = "2012-06-27 09:45:06")
 /** */
 public final class PresentazioniEventiMeta extends org.slim3.datastore.ModelMeta<it.polimi.aip.javisti.model.PresentazioniEventi> {
 
