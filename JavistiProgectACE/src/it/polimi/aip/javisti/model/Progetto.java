@@ -22,6 +22,8 @@ public class Progetto implements Serializable {
     private Date dataInizio;
     private Date dataFine;
     private String obbiettivi;
+    private ModelRef<Partner> partnerRef = 
+            new ModelRef<Partner>(Partner.class);
     
     @Attribute(primaryKey = true)
     private Key key;
@@ -165,6 +167,11 @@ public class Progetto implements Serializable {
         return presentazioneProgettiListRef;
     }
 
+    public ModelRef<Partner> getPartnerRef() {
+        return partnerRef;
+    }
+
+   
  
 
 

@@ -1,11 +1,14 @@
 package it.polimi.aip.javisti.meta;
 
-//@javax.annotation.Generated(value = { "slim3-gen", "@VERSION@" }, date = "2012-06-27 09:45:06")
+//@javax.annotation.Generated(value = { "slim3-gen", "@VERSION@" }, date = "2012-06-27 10:50:53")
 /** */
 public final class PartnerMeta extends org.slim3.datastore.ModelMeta<it.polimi.aip.javisti.model.Partner> {
 
     /** */
     public final org.slim3.datastore.CoreAttributeMeta<it.polimi.aip.javisti.model.Partner, com.google.appengine.api.datastore.Key> key = new org.slim3.datastore.CoreAttributeMeta<it.polimi.aip.javisti.model.Partner, com.google.appengine.api.datastore.Key>(this, "__key__", "key", com.google.appengine.api.datastore.Key.class);
+
+    /** */
+    public final org.slim3.datastore.StringAttributeMeta<it.polimi.aip.javisti.model.Partner> partitaIva = new org.slim3.datastore.StringAttributeMeta<it.polimi.aip.javisti.model.Partner>(this, "partitaIva", "partitaIva");
 
     /** */
     public final org.slim3.datastore.CoreAttributeMeta<it.polimi.aip.javisti.model.Partner, java.lang.Long> version = new org.slim3.datastore.CoreAttributeMeta<it.polimi.aip.javisti.model.Partner, java.lang.Long>(this, "version", "version", java.lang.Long.class);
@@ -28,6 +31,7 @@ public final class PartnerMeta extends org.slim3.datastore.ModelMeta<it.polimi.a
     public it.polimi.aip.javisti.model.Partner entityToModel(com.google.appengine.api.datastore.Entity entity) {
         it.polimi.aip.javisti.model.Partner model = new it.polimi.aip.javisti.model.Partner();
         model.setKey(entity.getKey());
+        model.setPartitaIva((java.lang.String) entity.getProperty("partitaIva"));
         model.setVersion((java.lang.Long) entity.getProperty("version"));
         return model;
     }
@@ -41,6 +45,7 @@ public final class PartnerMeta extends org.slim3.datastore.ModelMeta<it.polimi.a
         } else {
             entity = new com.google.appengine.api.datastore.Entity(kind);
         }
+        entity.setProperty("partitaIva", m.getPartitaIva());
         entity.setProperty("version", m.getVersion());
         entity.setProperty("slim3.schemaVersion", 1);
         return entity;
@@ -108,6 +113,10 @@ public final class PartnerMeta extends org.slim3.datastore.ModelMeta<it.polimi.a
             writer.setNextPropertyName("key");
             encoder0.encode(writer, m.getKey());
         }
+        if(m.getPartitaIva() != null){
+            writer.setNextPropertyName("partitaIva");
+            encoder0.encode(writer, m.getPartitaIva());
+        }
         if(m.getVersion() != null){
             writer.setNextPropertyName("version");
             encoder0.encode(writer, m.getVersion());
@@ -122,6 +131,8 @@ public final class PartnerMeta extends org.slim3.datastore.ModelMeta<it.polimi.a
         org.slim3.datastore.json.Default decoder0 = new org.slim3.datastore.json.Default();
         reader = rootReader.newObjectReader("key");
         m.setKey(decoder0.decode(reader, m.getKey()));
+        reader = rootReader.newObjectReader("partitaIva");
+        m.setPartitaIva(decoder0.decode(reader, m.getPartitaIva()));
         reader = rootReader.newObjectReader("version");
         m.setVersion(decoder0.decode(reader, m.getVersion()));
         return m;

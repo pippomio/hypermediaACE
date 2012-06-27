@@ -23,6 +23,8 @@ public class Risultati implements Serializable {
     
     private ModelRef<Progetto> progettoRef = new ModelRef<Progetto>(Progetto.class);
     
+  
+    
     /**
      * Returns the key.
      *

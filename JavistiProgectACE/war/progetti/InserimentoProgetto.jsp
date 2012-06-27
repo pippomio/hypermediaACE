@@ -11,7 +11,7 @@
 <body>
 <p>Hello progetto Index !!!</p>
 	
-		<form method="post" action="nuovoprogetto">
+		<form method="post" action="InserisciProgetto">
 		 name: <input type="text" name="nome" /><br>
 		 surname: <input type="text" name="descrizione" /><br>
 
@@ -23,6 +23,17 @@
 						
 				
 					<option ${f:select("tema", tema.nome)}> ${tema.nome} </option>
+		
+				</c:forEach>
+			</select>
+			
+			
+			<select name="partnerKey">
+			
+				<c:forEach var="partner" items="${listPartner}">
+						
+				
+					<option ${f:select("partner", partner.partitaIva)}> ${partner.partitaIva} </option>
 		
 				</c:forEach>
 			</select>

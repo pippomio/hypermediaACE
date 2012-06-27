@@ -12,6 +12,8 @@ public class Partner implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    private String partitaIva;
+    
     @Attribute(primaryKey = true)
     private Key key;
 
@@ -84,5 +86,13 @@ public class Partner implements Serializable {
             return false;
         }
         return true;
+    }
+
+    public String getPartitaIva() {
+        return partitaIva;
+    }
+
+    public void setPartitaIva(String partitaIva) {
+        this.partitaIva = partitaIva;
     }
 }

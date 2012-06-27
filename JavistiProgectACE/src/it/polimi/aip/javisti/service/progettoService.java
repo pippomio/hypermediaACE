@@ -12,6 +12,7 @@ import com.google.appengine.api.datastore.Transaction;
 
 import it.polimi.aip.javisti.meta.ProgettoMeta;
 import it.polimi.aip.javisti.model.Evento;
+import it.polimi.aip.javisti.model.Partner;
 import it.polimi.aip.javisti.model.Progetto;
 import it.polimi.aip.javisti.model.Risultati;
 import it.polimi.aip.javisti.model.Tema;
@@ -44,7 +45,7 @@ public class progettoService {
         tx.commit();
     }
 
-    public void addProgetto(String titolo, String descrizione, String tema)
+    public void addProgetto(String titolo, String descrizione, String tema, String partitaIva)
     {
         Progetto progetto = new Progetto();
                
@@ -57,9 +58,15 @@ public class progettoService {
         
         Key temaKey = Datastore.createKey(Tema.class, tema);
         Tema temaProgetto = Datastore.get(Tema.class, temaKey);
+      
+        Key partnerKey = Datastore.createKey(Partner.class,partitaIva);
+        Partner haDiretto = Datastore.get(Partner.class,partnerKey);
         
         Transaction tx = Datastore.beginTransaction(); 
         progetto.getTemaRef().setModel(temaProgetto);
+        
+        Transaction tx1 = Datastore.beginTransaction(); 
+        progetto.getPartnerRef().setModel(haDiretto);
         
         Tema temaProgettoRicavato =  progetto.getTemaRef().getModel();
         System.out.println(" tema appena datomi:  " + temaProgettoRicavato.getNome() + " tratta la descriz:  " + temaProgettoRicavato.getDescrizione() + "  ");
@@ -69,6 +76,7 @@ public class progettoService {
         Datastore.put(progetto);
         
         tx.commit();
+        tx1.commit();
         
         
        

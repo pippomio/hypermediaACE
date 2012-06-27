@@ -1,6 +1,6 @@
 package it.polimi.aip.javisti.meta;
 
-//@javax.annotation.Generated(value = { "slim3-gen", "@VERSION@" }, date = "2012-06-27 09:45:06")
+//@javax.annotation.Generated(value = { "slim3-gen", "@VERSION@" }, date = "2012-06-27 10:50:53")
 /** */
 public final class ProgettoMeta extends org.slim3.datastore.ModelMeta<it.polimi.aip.javisti.model.Progetto> {
 
@@ -18,6 +18,9 @@ public final class ProgettoMeta extends org.slim3.datastore.ModelMeta<it.polimi.
 
     /** */
     public final org.slim3.datastore.StringAttributeMeta<it.polimi.aip.javisti.model.Progetto> obbiettivi = new org.slim3.datastore.StringAttributeMeta<it.polimi.aip.javisti.model.Progetto>(this, "obbiettivi", "obbiettivi");
+
+    /** */
+    public final org.slim3.datastore.ModelRefAttributeMeta<it.polimi.aip.javisti.model.Progetto, org.slim3.datastore.ModelRef<it.polimi.aip.javisti.model.Partner>, it.polimi.aip.javisti.model.Partner> partnerRef = new org.slim3.datastore.ModelRefAttributeMeta<it.polimi.aip.javisti.model.Progetto, org.slim3.datastore.ModelRef<it.polimi.aip.javisti.model.Partner>, it.polimi.aip.javisti.model.Partner>(this, "partnerRef", "partnerRef", org.slim3.datastore.ModelRef.class, it.polimi.aip.javisti.model.Partner.class);
 
     /** */
     public final org.slim3.datastore.ModelRefAttributeMeta<it.polimi.aip.javisti.model.Progetto, org.slim3.datastore.ModelRef<it.polimi.aip.javisti.model.Tema>, it.polimi.aip.javisti.model.Tema> temaRef = new org.slim3.datastore.ModelRefAttributeMeta<it.polimi.aip.javisti.model.Progetto, org.slim3.datastore.ModelRef<it.polimi.aip.javisti.model.Tema>, it.polimi.aip.javisti.model.Tema>(this, "temaRef", "temaRef", org.slim3.datastore.ModelRef.class, it.polimi.aip.javisti.model.Tema.class);
@@ -50,6 +53,10 @@ public final class ProgettoMeta extends org.slim3.datastore.ModelMeta<it.polimi.
         model.setDescrizione((java.lang.String) entity.getProperty("descrizione"));
         model.setKey(entity.getKey());
         model.setObbiettivi((java.lang.String) entity.getProperty("obbiettivi"));
+        if (model.getPartnerRef() == null) {
+            throw new NullPointerException("The property(partnerRef) is null.");
+        }
+        model.getPartnerRef().setKey((com.google.appengine.api.datastore.Key) entity.getProperty("partnerRef"));
         if (model.getTemaRef() == null) {
             throw new NullPointerException("The property(temaRef) is null.");
         }
@@ -72,6 +79,10 @@ public final class ProgettoMeta extends org.slim3.datastore.ModelMeta<it.polimi.
         entity.setProperty("dataInizio", m.getDataInizio());
         entity.setProperty("descrizione", m.getDescrizione());
         entity.setProperty("obbiettivi", m.getObbiettivi());
+        if (m.getPartnerRef() == null) {
+            throw new NullPointerException("The property(partnerRef) must not be null.");
+        }
+        entity.setProperty("partnerRef", m.getPartnerRef().getKey());
         if (m.getTemaRef() == null) {
             throw new NullPointerException("The property(temaRef) must not be null.");
         }
@@ -104,6 +115,10 @@ public final class ProgettoMeta extends org.slim3.datastore.ModelMeta<it.polimi.
     @Override
     protected void assignKeyToModelRefIfNecessary(com.google.appengine.api.datastore.AsyncDatastoreService ds, java.lang.Object model) {
         it.polimi.aip.javisti.model.Progetto m = (it.polimi.aip.javisti.model.Progetto) model;
+        if (m.getPartnerRef() == null) {
+            throw new NullPointerException("The property(partnerRef) must not be null.");
+        }
+        m.getPartnerRef().assignKeyIfNecessary(ds);
         if (m.getTemaRef() == null) {
             throw new NullPointerException("The property(temaRef) must not be null.");
         }
@@ -165,6 +180,10 @@ public final class ProgettoMeta extends org.slim3.datastore.ModelMeta<it.polimi.
             writer.setNextPropertyName("obbiettivi");
             encoder0.encode(writer, m.getObbiettivi());
         }
+        if(m.getPartnerRef() != null && m.getPartnerRef().getKey() != null){
+            writer.setNextPropertyName("partnerRef");
+            encoder0.encode(writer, m.getPartnerRef(), maxDepth, currentDepth);
+        }
         if(m.getTemaRef() != null && m.getTemaRef().getKey() != null){
             writer.setNextPropertyName("temaRef");
             encoder0.encode(writer, m.getTemaRef(), maxDepth, currentDepth);
@@ -195,6 +214,8 @@ public final class ProgettoMeta extends org.slim3.datastore.ModelMeta<it.polimi.
         m.setKey(decoder0.decode(reader, m.getKey()));
         reader = rootReader.newObjectReader("obbiettivi");
         m.setObbiettivi(decoder0.decode(reader, m.getObbiettivi()));
+        reader = rootReader.newObjectReader("partnerRef");
+        decoder0.decode(reader, m.getPartnerRef(), maxDepth, currentDepth);
         reader = rootReader.newObjectReader("temaRef");
         decoder0.decode(reader, m.getTemaRef(), maxDepth, currentDepth);
         reader = rootReader.newObjectReader("titolo");
