@@ -10,5 +10,15 @@
 </head>
 <body>
 <p>Hello Aree_tematiche TutteLeAree !!!</p>
+
+		 <c:forEach var="tema" items="${listaTemi}">
+ 
+			 <p> <p>
+				  nome evento :  ${tema.nome}  <br>
+				  descrizione evento:  ${tema.descrizione} <br>
+				  <a href="MostraTema?id_tema=${tema.id_tema}"> Vai a: ${tema.nome}  </a>  <br>
+
+		 </c:forEach>
+
 </body>
 </html>

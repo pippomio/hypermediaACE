@@ -1,12 +1,17 @@
 package it.polimi.aip.javisti.model;
 
 import it.polimi.aip.javisti.meta.ProgettoMeta;
+import it.polimi.aip.javisti.meta.TemaMeta;
 
 import java.io.Serializable;
 
+import javax.jdo.datastore.DataStoreCache;
+
 import com.google.appengine.api.datastore.Key;
+import com.google.appengine.api.datastore.Query.SortDirection;
 
 import org.slim3.datastore.Attribute;
+import org.slim3.datastore.Datastore;
 import org.slim3.datastore.InverseModelListRef;
 import org.slim3.datastore.Model;
 
@@ -26,12 +31,28 @@ public class Tema implements Serializable {
     
     private String descrizione;
    
+    private String id_tema;
   
     @Attribute(persistent=false)
     private InverseModelListRef<Progetto, Tema> progettiListRef = 
         new InverseModelListRef<Progetto, Tema>(Progetto.class , "temaRef" , this);
 
+    @Attribute(persistent=false)
+    private InverseModelListRef<Risultati, Tema> risultatiRef =
+    new InverseModelListRef<Risultati, Tema>(Risultati.class, 
+             "temaRef"
+            , this);
     
+    public Tema()
+    {}
+    
+    public Tema(String nome, String descrizione)
+    {
+        this.nome = nome;
+        this.descrizione = descrizione;
+        this.id_tema = nome.replace(" ", "");
+        this.setKey( Datastore.createKey(Tema.class, this.id_tema));
+    }
     
     /**
      * Returns the key.
@@ -122,6 +143,21 @@ public class Tema implements Serializable {
     public InverseModelListRef<Progetto, Tema> getProgettiListRef() {
         return progettiListRef;
     }
+
+
+    public String getId_tema() {
+        return id_tema;
+    }
+
+
+    public void setId_tema(String id_tema) {
+        this.id_tema = id_tema;
+    }
+
+    public InverseModelListRef<Risultati, Tema> getRisultatiRef() {
+        return risultatiRef;
+    }
+
 
 
     

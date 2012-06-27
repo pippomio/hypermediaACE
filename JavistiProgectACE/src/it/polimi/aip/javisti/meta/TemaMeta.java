@@ -1,11 +1,14 @@
 package it.polimi.aip.javisti.meta;
 
-//@javax.annotation.Generated(value = { "slim3-gen", "@VERSION@" }, date = "2012-06-27 13:36:37")
+//@javax.annotation.Generated(value = { "slim3-gen", "@VERSION@" }, date = "2012-06-27 22:15:37")
 /** */
 public final class TemaMeta extends org.slim3.datastore.ModelMeta<it.polimi.aip.javisti.model.Tema> {
 
     /** */
     public final org.slim3.datastore.StringAttributeMeta<it.polimi.aip.javisti.model.Tema> descrizione = new org.slim3.datastore.StringAttributeMeta<it.polimi.aip.javisti.model.Tema>(this, "descrizione", "descrizione");
+
+    /** */
+    public final org.slim3.datastore.StringAttributeMeta<it.polimi.aip.javisti.model.Tema> id_tema = new org.slim3.datastore.StringAttributeMeta<it.polimi.aip.javisti.model.Tema>(this, "id_tema", "id_tema");
 
     /** */
     public final org.slim3.datastore.CoreAttributeMeta<it.polimi.aip.javisti.model.Tema, com.google.appengine.api.datastore.Key> key = new org.slim3.datastore.CoreAttributeMeta<it.polimi.aip.javisti.model.Tema, com.google.appengine.api.datastore.Key>(this, "__key__", "key", com.google.appengine.api.datastore.Key.class);
@@ -34,6 +37,7 @@ public final class TemaMeta extends org.slim3.datastore.ModelMeta<it.polimi.aip.
     public it.polimi.aip.javisti.model.Tema entityToModel(com.google.appengine.api.datastore.Entity entity) {
         it.polimi.aip.javisti.model.Tema model = new it.polimi.aip.javisti.model.Tema();
         model.setDescrizione((java.lang.String) entity.getProperty("descrizione"));
+        model.setId_tema((java.lang.String) entity.getProperty("id_tema"));
         model.setKey(entity.getKey());
         model.setNome((java.lang.String) entity.getProperty("nome"));
         model.setVersion((java.lang.Long) entity.getProperty("version"));
@@ -50,6 +54,7 @@ public final class TemaMeta extends org.slim3.datastore.ModelMeta<it.polimi.aip.
             entity = new com.google.appengine.api.datastore.Entity(kind);
         }
         entity.setProperty("descrizione", m.getDescrizione());
+        entity.setProperty("id_tema", m.getId_tema());
         entity.setProperty("nome", m.getNome());
         entity.setProperty("version", m.getVersion());
         entity.setProperty("slim3.schemaVersion", 1);
@@ -118,6 +123,10 @@ public final class TemaMeta extends org.slim3.datastore.ModelMeta<it.polimi.aip.
             writer.setNextPropertyName("descrizione");
             encoder0.encode(writer, m.getDescrizione());
         }
+        if(m.getId_tema() != null){
+            writer.setNextPropertyName("id_tema");
+            encoder0.encode(writer, m.getId_tema());
+        }
         if(m.getKey() != null){
             writer.setNextPropertyName("key");
             encoder0.encode(writer, m.getKey());
@@ -140,6 +149,8 @@ public final class TemaMeta extends org.slim3.datastore.ModelMeta<it.polimi.aip.
         org.slim3.datastore.json.Default decoder0 = new org.slim3.datastore.json.Default();
         reader = rootReader.newObjectReader("descrizione");
         m.setDescrizione(decoder0.decode(reader, m.getDescrizione()));
+        reader = rootReader.newObjectReader("id_tema");
+        m.setId_tema(decoder0.decode(reader, m.getId_tema()));
         reader = rootReader.newObjectReader("key");
         m.setKey(decoder0.decode(reader, m.getKey()));
         reader = rootReader.newObjectReader("nome");

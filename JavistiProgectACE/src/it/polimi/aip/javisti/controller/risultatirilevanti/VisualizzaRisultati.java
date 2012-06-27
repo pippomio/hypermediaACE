@@ -8,7 +8,7 @@ import it.polimi.aip.javisti.service.RisultatiService;
 import org.slim3.controller.Controller;
 import org.slim3.controller.Navigation;
 
-public class IndexController extends Controller {
+public class VisualizzaRisultati extends Controller {
 
     
     

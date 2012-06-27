@@ -1,20 +1,18 @@
 package it.polimi.aip.javisti.controller.inserisciRisultati;
 
-import it.polimi.aip.javisti.controller.inserisciRisultati.IndexController;
-
 import org.slim3.tester.ControllerTestCase;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
 
-public class IndexControllerTest extends ControllerTestCase {
+public class PreparaFormControllerTest extends ControllerTestCase {
 
     @Test
     public void run() throws Exception {
-        tester.start("/inserisciRisultati/");
-        IndexController controller = tester.getController();
+        tester.start("/inserisciRisultati/preparaForm");
+        RisultatiPreparaFormController controller = tester.getController();
         assertThat(controller, is(notNullValue()));
         assertThat(tester.isRedirect(), is(false));
-        assertThat(tester.getDestinationPath(), is("/inserisciRisultati/index.jsp"));
+        assertThat(tester.getDestinationPath(), is(nullValue()));
     }
 }

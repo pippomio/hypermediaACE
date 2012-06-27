@@ -28,6 +28,7 @@ public class MostraeventoController extends Controller {
         Evento eventoDaVisualizzare = Datastore.get(Evento.class, eventoKey);
         
         requestScope("evento", eventoDaVisualizzare);
+        
         return forward("mostraevento.jsp");
     
     

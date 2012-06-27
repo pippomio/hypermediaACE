@@ -10,7 +10,7 @@ public class IndexControllerTest extends ControllerTestCase {
     @Test
     public void run() throws Exception {
         tester.start("/risultatirilevanti/");
-        IndexController controller = tester.getController();
+        VisualizzaRisultati controller = tester.getController();
         assertThat(controller, is(notNullValue()));
         assertThat(tester.isRedirect(), is(false));
         assertThat(tester.getDestinationPath(), is("/risultatirilevanti/index.jsp"));

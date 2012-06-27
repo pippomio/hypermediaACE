@@ -21,13 +21,15 @@ public class TemaService {
         {           
             Tema tema = new Tema();
             BeanUtil.copy(input, tema);
+            tema.setId_tema(tema.getNome().replace(" ", ""));
             Transaction tx = Datastore.beginTransaction();
-            Key temaKey = Datastore.createKey(Tema.class, tema.getNome());
-
+            Key temaKey = Datastore.createKey(Tema.class, tema.getId_tema());
             tema.setKey(temaKey);
+           
             System.out.print(" tema.key.name() = " + tema.getKey().getName());
             System.out.print(" tema.key.name() = " + tema.getKey().toString());
             Datastore.put(tema);
+           
             tx.commit();
         }
 
@@ -37,6 +39,7 @@ public class TemaService {
         {
             return  Datastore.query(tm).asList();
          }
+
            
 
     

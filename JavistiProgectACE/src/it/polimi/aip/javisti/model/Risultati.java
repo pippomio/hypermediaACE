@@ -20,10 +20,11 @@ public class Risultati implements Serializable {
     private Long version;
 
     private String titolo;
+    private String descrizione;
     
     private ModelRef<Progetto> progettoRef = new ModelRef<Progetto>(Progetto.class);
     
-  
+    private ModelRef<Tema>    temaRef = new ModelRef<Tema>(Tema.class);
     
     /**
      * Returns the key.
@@ -104,6 +105,19 @@ public class Risultati implements Serializable {
     public ModelRef<Progetto> getProgettoRef() {
         return progettoRef;
     }
+
+    public String getDescrizione() {
+        return descrizione;
+    }
+
+    public void setDescrizione(String descrizione) {
+        this.descrizione = descrizione;
+    }
+
+    public ModelRef<Tema> getTemaRef() {
+        return temaRef;
+    }
+
 
    
 }

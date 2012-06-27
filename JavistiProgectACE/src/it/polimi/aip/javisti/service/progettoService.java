@@ -82,5 +82,13 @@ public class progettoService {
        
         
     }
+
+
+    public List<Partner> getListaPartners() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+
     
 }
