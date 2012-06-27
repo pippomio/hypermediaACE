@@ -14,6 +14,7 @@ public class Partner implements Serializable {
 
     private String partitaIva;
     private String nome;
+    private String descrizione;
     @Attribute(primaryKey = true)
     private Key key;
 
@@ -102,5 +103,13 @@ public class Partner implements Serializable {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public String getDescrizione() {
+        return descrizione;
+    }
+
+    public void setDescrizione(String descrizione) {
+        this.descrizione = descrizione;
     }
 }
