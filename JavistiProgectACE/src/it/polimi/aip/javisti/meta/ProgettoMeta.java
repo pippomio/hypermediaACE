@@ -1,6 +1,6 @@
 package it.polimi.aip.javisti.meta;
 
-//@javax.annotation.Generated(value = { "slim3-gen", "@VERSION@" }, date = "2012-06-27 10:50:53")
+//@javax.annotation.Generated(value = { "slim3-gen", "@VERSION@" }, date = "2012-06-27 14:52:28")
 /** */
 public final class ProgettoMeta extends org.slim3.datastore.ModelMeta<it.polimi.aip.javisti.model.Progetto> {
 

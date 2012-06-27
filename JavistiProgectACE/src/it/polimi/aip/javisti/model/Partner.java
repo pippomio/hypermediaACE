@@ -13,7 +13,7 @@ public class Partner implements Serializable {
     private static final long serialVersionUID = 1L;
 
     private String partitaIva;
-    
+    private String nome;
     @Attribute(primaryKey = true)
     private Key key;
 
@@ -94,5 +94,13 @@ public class Partner implements Serializable {
 
     public void setPartitaIva(String partitaIva) {
         this.partitaIva = partitaIva;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 }
