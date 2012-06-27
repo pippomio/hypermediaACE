@@ -10,7 +10,7 @@ public class InsallControllerTest extends ControllerTestCase {
     @Test
     public void run() throws Exception {
         tester.start("/cpage/insall");
-        InsallController controller = tester.getController();
+        LaSabbiaBrucia controller = tester.getController();
         assertThat(controller, is(notNullValue()));
         assertThat(tester.isRedirect(), is(false));
         assertThat(tester.getDestinationPath(), is("/cpage/insall.jsp"));

@@ -22,6 +22,7 @@ public class Evento implements Serializable {
     private TipoEvento tipo;
     private String sede;
     
+    
     @Attribute(primaryKey = true)
     private Key key;
 
