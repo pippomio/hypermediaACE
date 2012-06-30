@@ -27,13 +27,17 @@
 	<p> Inserisci evento </p>
 		<form method="post" action="nuovoevento">
 		 titolo: <input type="text" name="titolo" /><br>
-		 descrizione: <input type="text" name="descrizione" /><br>
+		 descrizione: <br>
+		 <textarea name="descrizione" rows="100" cols="100" wrap="off"></textarea><br>
 		 data: <input type="text" name="data_male"/><br>
 		  data fatta bene:   <input type="text" size="12" name="data" id="inputField" />
+		  <br/> <br/> 
+	
 		 
 		
 		<input type="submit" value="Add"/>	
 	</form>
+	<br> <br> <br> <br> <br> <br> <br> <br> <br>  <br /> <br> <br> <br> <br> <br>
 
 </body>
 </html>
